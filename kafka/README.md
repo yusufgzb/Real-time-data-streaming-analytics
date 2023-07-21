@@ -21,4 +21,5 @@ sudo docker-compose up -d
 sudo docker exec -it kafka-docker bash
 
 kafka-topics.sh --create --topic ornek --bootstrap-server localhost:9092
+
 kafka-console-consumer.sh --topic ornek --bootstrap-server localhost:9092
